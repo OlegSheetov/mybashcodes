@@ -13,6 +13,8 @@ alias phplint='php -l'
 # GitHub
 alias GitHubPush='bash ~/mybashcodes/GitHubPush.bash';
 
+#alias for update,upgrade,refresh
+alias UUR='sudo apt update; sudo apt upgrade; sudo snap refresh';
 
 
 
@@ -21,7 +23,9 @@ alias rmf='rm -r';
 # Copy folder
 alias cpf='cp -r';
 #Move to htdocs
-alias htdocs='cd /opt/lampp/htdocs';
+alias Backend='cd /opt/lampp/htdocs';
+#Move to ~/wedprogramming/loadingscreen
+alias Frontend='cd ~/webprogrammin/loadingscreen/';
 #Run xampp
 alias xampp='cd /opt/lampp; sudo ./manager-linux-x64.run';
 
