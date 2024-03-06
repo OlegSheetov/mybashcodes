@@ -1,6 +1,4 @@
-CommitText = $1; 
-
-
+CommitText=$1; 
 git status ; 
 git log; 
 git add . ; 
