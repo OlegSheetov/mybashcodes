@@ -1,14 +1,11 @@
-ComponentName = $1;
-if( ComponentName == null){ 
-    echo 'Вы не ввели имя компонента';
-}
+ComponentName=$1;
 mkdir $ComponentName;
 cd $ComponentName;
-touch $ComponentName.jsx  $ComponentName.scss
+touch $ComponentName.jsx  $ComponentName.css
 
 echo "
 import React from 'react';
-import './$ComponentName.css'
+import './$ComponentName.css';
 
 export default function $ComponentName(){ 
     return(
