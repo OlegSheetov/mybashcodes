@@ -14,8 +14,9 @@ alias phplint='php -l'
 alias GitHubPush='bash ~/mybashcodes/GitHubPush.bash';
 
 #alias for update,upgrade,refresh
-alias UUR='sudo apt update -y; sudo apt upgrade -y; sudo snap refresh -y';
-
+alias UUR='sudo apt update  ; sudo apt upgrade  ; sudo snap refresh  ';
+#alias for clear
+alias cl='clear';
 
 
 # Remove folder 
