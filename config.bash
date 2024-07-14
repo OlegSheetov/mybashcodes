@@ -30,4 +30,13 @@ alias Frontend='cd ~/webprogrammin/loadingscreen/';
 #Run xampp
 alias xampp='cd /opt/lampp; sudo ./manager-linux-x64.run';
 
+#Alias for python
+alias py='pypy3'
+#Alias for SSH key generation for GitHub 
+alias GenerateSSHkeyForGitHub='bash ~/mybashcodes/GenerateNewGITHUBSSHKey.bash'
 
+
+# Open tmux on opening terminal 
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
