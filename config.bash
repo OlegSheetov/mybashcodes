@@ -34,6 +34,8 @@ alias xampp='cd /opt/lampp; sudo ./manager-linux-x64.run';
 alias py='pypy3'
 #Alias for SSH key generation for GitHub 
 alias GenerateSSHkeyForGitHub='bash ~/mybashcodes/GenerateNewGITHUBSSHKey.bash'
+#Alias for recursive find
+alias rfind='bash ~/mybashcodes/rfind.bash'
 
 
 # Open tmux on opening terminal 
